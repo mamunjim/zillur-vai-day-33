@@ -103,7 +103,7 @@ p,a,span{
 .about-section{
     padding: 100px 0;
 }
-    .default-info .default-subtitle {
+    .default-subtitle {
         font-size: 14px;
         color: #e73c3e;
     }
@@ -132,11 +132,8 @@ p,a,span{
         font-size: 14px;
         font-weight: 500;
     }
-    .default-info h3{
-        font-size: 32px;
-        font-weight: 400;
-    }
-    .default-info p{
+    
+    .default-text{
         font-size: 14px;
         color: #606060;
     }
@@ -150,12 +147,14 @@ p,a,span{
     .default-icon{
         color: #e73c3e;
     }
-    .default-info li{}
-    .default-info .default-icon{}
 
 /* about section end */
 
 /* process section start */
+.default-heading{
+    font-size: 32px;
+    font-weight: 500;
+}
 
 .gray-bg{
     background-color: #f9fafb;
@@ -265,3 +264,84 @@ p,a,span{
 }
 
 /* process section end */
+
+/* apply section start */
+    .default-title{
+        font-weight: 400;
+        font-size: 33px;
+        line-height: 50.4px;
+    }
+    .apply-list{
+        list-style: none;
+        position: relative;
+    }
+    .apply-list li{
+        position: relative;
+    }
+    .apply-list li::before{
+        content:attr(data-counter);
+        position: absolute;
+        top: 10px;
+        left: -50px;
+        width: 35px;
+        height: 35px;
+        background: white;
+        border: 1px solid #e73c3e;
+        border-radius: 50%;
+        line-height: 35px;
+        text-align: center;
+        color: #e73c3e;
+        font-size: 20px;
+
+    }
+    .apply-list li strong{
+        font-size: 23px;
+        font-weight: 600;
+        line-height: 50px;
+    }
+    .apply-list::before{
+        content: "";
+        position: absolute;
+        top: 12px;
+        left: 0;
+        width: 1px;
+        height: 85%;
+        background:#e73c3e ;
+    }
+    .apply-right .card{
+        background: #fdebeb;
+    }
+/* apply section end */
+
+/* solution section start */
+.solution{
+    background: #e73c3e;
+}
+/* solution section start */
+.solution-call{
+    color: #e73c3e;
+    font-size: 35px;
+    display: inline-block;
+    line-height: 60px;
+    position: relative;
+   
+}
+.solution-call::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -35px;
+    height: 100%;
+    width: 1px;
+    background: white;
+
+}
+.solution-call-bg{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: white;
+    text-align: center;
+  
+    
+}
