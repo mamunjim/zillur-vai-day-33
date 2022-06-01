@@ -345,3 +345,43 @@ p,a,span{
   
     
 }
+/* company section start */
+.company-section{
+    margin-top: 50px;
+}
+
+.company-icon{
+    font-size: 30px;
+    color: #e73c3e;
+}
+/* company section end */
+
+/* service-sectioin-start */
+.service-section{
+    background:#f9fafb ;
+}
+.service-title p{
+    line-height: 27px;
+}
+.service-icon-list{}
+.service-icon-box{}
+.service-icon{
+    font-size: 49px;
+    position: relative;
+    z-index: 1;
+    line-height: 100px;
+}
+.service-icon::before{
+    content: "";
+    position: absolute;
+    top: -23px;
+    left: -30px;
+    height: 100px;
+    width: 100px;
+    background: #ffffff;
+    border-radius: 50%;
+    z-index: -1;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+} ;
+}
+/* service-sectioin-end */
