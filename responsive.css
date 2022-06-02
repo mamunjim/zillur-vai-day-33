@@ -18,6 +18,12 @@
     .apply-text{
         padding: 0 280px;
     }
+    .testimonial-title-text{
+        padding: 0 280px;
+    }
+    .team-title{
+        padding: 0 280px;
+    }
 
 }
 @media(max-width:1200px){
@@ -36,6 +42,9 @@
     .service-title p{
         padding: 0 280px;
     }
+    .testimonial-info p{
+        font-size: 21px;
+    }
 }
 
 @media(max-width:992px){
@@ -53,7 +62,11 @@
         margin-top: 10px;
         font-size:25px ;
     }
-    
+    .testimonial-info{
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+    }
 }
 @media(max-width:768px){
     .about-image-text{
@@ -67,6 +80,9 @@
     }
     .default-info h3{
         font-size: 25px;
+    }
+    .team-3,.team-4{
+        margin-top: 20px;
     }
 }
 

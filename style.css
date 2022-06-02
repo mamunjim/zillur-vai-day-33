@@ -388,4 +388,71 @@ p,a,span{
     font-weight: 500;
     line-height: 2;
 }
+.icon-hover{
+    transition: .5s;
+}
+.icon-hover:hover{
+    transform: translateY(-15px);
+}
 /* service-sectioin-end */
+
+/* testiomonial section start */
+.testimonial-info-image{
+    position: relative;
+}
+.quote-icon{
+    font-size: 50px;
+    background: white;
+    color: red;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 26px;
+    left: 131px;
+    text-align: center;
+    line-height: 80px;
+    z-index: 1;
+}
+.quote-icon::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:red;
+    border-radius: 50%; 
+    z-index: -1;
+    animation: quote-animation ease-out infinite 1s;
+}
+@keyframes quote-animation{
+    0%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    25%{
+        transform: scale(1.2);
+        opacity: .8;
+    }
+    50%{
+        transform: scale(1.5);
+        opacity: .5;
+    }
+    75%{
+        transform: scale(1.8);
+        opacity: .2;
+    }
+    100%{
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+/* testiomonial section endd */
+
+/* team section start */
+.team-section{
+    background: #f9fafb;
+}
+/* team section end */
