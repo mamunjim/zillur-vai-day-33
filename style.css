@@ -382,6 +382,10 @@ p,a,span{
     border-radius: 50%;
     z-index: -1;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
-} ;
+}
+.service-main-info h3{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 2;
 }
 /* service-sectioin-end */
