@@ -455,4 +455,132 @@ p,a,span{
 .team-section{
     background: #f9fafb;
 }
+.team-icon{
+    position: relative;
+}
+.team-section ul{
+    list-style: none;
+    position: absolute;
+    bottom: 80px;
+    left: 55px;
+    opacity: 0;
+    transition: 1s;
+}
+.team-icon:hover ul{
+    opacity: 1;
+}
+
+.team-section ul li{
+    display: inline-block;
+    text-align: center;
+    background: white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    margin: auto;
+    transition: .5s;
+}
+.team-section ul li:hover{
+    background: #e73c3e;
+    color:white;
+}
+.team-icon h5{
+    color: #e73c3e;
+    font-size: 19px;
+}
+.surname{
+    font-size: 15px;
+    color: #606060;
+}
 /* team section end */
+
+/* success section start */
+.lal-color{
+    color: #e73c3e;
+}
+.success-card{
+    padding-left: 0;
+}
+
+.card:hover a{
+    color: #e73c3e;
+    transition: .5s;
+    letter-spacing: 1px;
+}
+.success-card h3{
+  font-size: 25px;
+  transition: .5s;
+
+}
+.success-card h3:hover{
+    color: #e73c3e;
+}
+.card-button a{
+    text-decoration: none;
+    color: #111111;
+    font-weight: bold;
+    font-size: 15px;
+}
+/* success section end */
+
+/* footer section start */
+.footer-section{
+    background: #111111;
+}
+.footer-section h3,p,a{
+    color: white;
+}
+.footer-section ul{
+    list-style: none;
+    padding-left: 0 !important;
+  
+}
+.footer-section li a{
+    text-decoration: none;
+}
+.footer-icons ul li{
+    display: inline-block;
+    padding: 5px;
+    transition: .5s;
+}
+.footer-icons ul li:hover{
+    color: #e73c3e;
+}
+
+.footer-section h3{
+    font-size: 19px;
+    position: relative;
+}
+.footer-section h3::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    height: 1px;
+    width: 100%;
+    background: #333535;
+    text-align: center;
+}
+
+.footer-text{
+    font-size: 16px;
+}
+.footer-section ul li a{
+    font-size: 16px;
+}
+.info-list li{
+    line-height: 2;
+  
+}
+.info-list li a{
+    transition: .5s;
+}
+.info-list li a:hover{
+    color: #e73c3e!important;
+    letter-spacing: 1px;
+}
+.contact-icon{
+    color: white;
+}
+/* footer section end */

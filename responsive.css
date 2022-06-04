@@ -24,6 +24,9 @@
     .team-title{
         padding: 0 280px;
     }
+    .success-title{
+        padding: 0 212px;
+    }
 
 }
 @media(max-width:1200px){
@@ -84,5 +87,6 @@
     .team-3,.team-4{
         margin-top: 20px;
     }
+    
 }
 
